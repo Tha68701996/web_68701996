@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--เมนู-->
+    <div id="menu-container"></div>
+    <div class="container">
+        <div class="alert alert-warning mt-4" role="alert">
+            Glad You Here!
+        </div>
+
+    <!--เนื้อหา-->
+    <div class="container">
+        <div class="contact__wrapper shadow-lg mt-n9">
+            <div class="row no-gutters">
+                <div class="col-lg-5 contact-info__wrapper gradient-brand-color p-5 order-lg-2">
+                    <h3 class="color--white mb-5">Touch Me</h3>
+                    <ul class="contact-info__list list-style--none position-relative z-index-101">
+                        <li class="mb-4 pl-4"> <span class="position-absolute"><i class="fas fa-envelope"></i></span>
+                            support@dosomething.com</li>
+                        <li class="mb-4 pl-4"> <span class="position-absolute"><i class="fas fa-phone"></i></span>
+                            (081)-XXX-XXXX</li>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-7 contact-form__wrapper p-5 order-lg-1">
+                    <form action="#" class="contact-form form-validate" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group"> <label class="required-field" for="firstName">First
+                                        Name-Last Name</label> <input type="text" class="form-control" id="firstName"
+                                        name="firstName" placeholder="firtsname-lastname"></div>
+                            </div>
+ 
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group"> <label class="required-field" for="email">Email</label> <input
+                                        type="text" class="form-control" id="email" name="email"
+                                        placeholder="example@gmail.com"></div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="form-group"> <label for="phone">Phone Number</label> <input type="tel"
+                                        class="form-control" id="phone" name="phone" placeholder="XXX-XXX-XXXX"></div>
+                            </div>
+                            <div class="col-sm-12 mb-3">
+                                <div class="form-group"> <label class="required-field" for="message">How can we
+                                        help?</label><textarea class="form-control" id="message" name="message" rows="4"
+                                        placeholder="Hi there, I would like to..."></textarea></div>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-primary" type="submit">Submit</button>
+                                <button class="btn btn-secondary" type="reset">Cancel</button>
+                                </div>
+                                    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/menu.js"></script>
